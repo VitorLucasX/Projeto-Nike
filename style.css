@@ -1,0 +1,17 @@
+@import url("styles/header.css");
+@import url("styles/banner-infinity.css");
+@Import url("styles/banner-day-member.css");
+@import url("styles/banner-lancamentos.css");
+@import url("styles/video-mbappe.css");
+@import url("styles/banner-metcon.css");
+@import url("styles/banner-nike-ready.css");
+@import url("styles/video-tops-nike.css");
+@Import url("styles/banner-nike-membership.css");
+@import url("styles/carrossel.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+}

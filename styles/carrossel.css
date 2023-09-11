@@ -1,0 +1,13 @@
+.swiper-slide img {
+    width: 100%
+}
+
+.swiper {
+    width: 95%;
+}
+
+.carrossel__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}

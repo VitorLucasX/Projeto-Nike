@@ -1,0 +1,19 @@
+.nike-ready {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.nike-ready img {
+    width: 95%;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.flex {
+    margin: 0 2em;
+}

@@ -1,0 +1,9 @@
+.banner-membro {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.banner-membro img {
+    width: 95%;
+}

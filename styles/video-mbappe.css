@@ -1,0 +1,13 @@
+.watch {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.watch video {
+    width: 95%;
+}
+
+.colecao-mbappe {
+    width: 95%;
+}

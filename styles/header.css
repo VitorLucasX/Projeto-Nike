@@ -1,0 +1,52 @@
+.container__primeiro {
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em;
+}
+
+.logo-nike {
+    width: 40px;
+}
+
+.lista-navigation {
+    display: flex;
+    padding: .5em 0;
+}
+
+.lista__link {
+    padding: 0em .7em;
+    color: black;
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+}
+
+.container__segundo {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0em;
+}
+
+.botao_navigation {
+    width: 90%;
+    padding: 1em;
+    border: none;
+    border-radius: 24px;
+    background: url(../img/Search.svg);
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+
+.botao_navigation:hover {
+    background-color: #D6D6D6;
+}
+
+.botao_navigation::placeholder {
+    padding: 2em;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+
+}

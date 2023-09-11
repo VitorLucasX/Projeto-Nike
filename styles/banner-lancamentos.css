@@ -1,0 +1,9 @@
+.lancamento {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.lancamento img {
+    width: 95%;
+}

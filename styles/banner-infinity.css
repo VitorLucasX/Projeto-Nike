@@ -1,0 +1,56 @@
+.banner__nike-infinity {
+    padding: 1em 0em;
+}
+
+.inverno-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7em;
+}
+
+.icone__inverno {
+    width: 30px;
+}
+
+.inverno__titulo {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.inverno_link {
+    color: black;
+}
+
+.banner__tenis {
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.infinity-image {
+    width: 95%;
+}
+
+button {
+    padding: 1em;
+    width: 160px;
+    border-radius: 24px;
+    background-color: black;
+    margin: 1.2em 3.8em;
+}
+
+.botao_link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.botao:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.titulo-chamativo {
+    padding: 2em .5em 0 .5em;
+    font-size: 25px;
+}

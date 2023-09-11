@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike - Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header>
+        <div class="container__primeiro">
+                <img src="img/logo-nike.svg" alt="Logo da Nike" class="logo-nike">
+                <ul class="lista-navigation">
+                    <li class="lista__item"><a href="#" class="lista__link">
+                        <span class="material-symbols-outlined">favorite</span>
+                    </a></li>
+                    <li class="lista_item"><a href="#" class="lista__link">
+                        <span class="material-symbols-outlined">shopping_bag</span>
+                    </a></li>
+                    <li class="lista_item"><a href="#" class="lista__link">
+                            <span class="material-symbols-outlined">menu</span>
+                    </a></li>
+                </ul>
+        </div>
+        <div class="container__segundo">
+            <input type="search" placeholder="Buscar" class="botao_navigation">
+        </div>
+    </header>
+    
+    <section class="banner__nike-infinity">
+        <div class="inverno-animation">
+            <img src="img/icone-inverno.svg" alt="ícone inverno" class="icone__inverno">
+            <h1 class="inverno__titulo">Roupas de inverno</h1>
+            <p class="inverno__texto">Confira nossa seleção <a href="#" class="inverno_link">aqui</a></p>
+        </div>
+        
+        <div class="banner__tenis">
+            <img src="img/nike-infinity.png" alt="Banner do Nike Infinity" class="infinity-image">
+        </div>
+        <button class="botao">
+            <a href="#" class="botao_link">Ver InfinityRN 4</a>
+        </button>
+    </section>
+
+    <h2 class="titulo-chamativo">Em Breve</h2>
+
+    <section class="banner__day-membro">
+        <div class="banner-membro">
+            <img src="img/day-member.png" class="imagem_membros" alt="Dia dos Membros">
+        </div>
+        <button class="botao">
+            <a href="#" class="botao_link">Saiba Mais</a>
+        </button>
+    </section>
+
+    <h2 class="titulo-chamativo">Lançamentos</h2>
+
+    <section class="banner__lancamento">
+        <div class="lancamento">
+            <img src="img/lancamento.png" class="imagem_lancamento" alt="Banner de Lançamento">
+        </div>
+        <button class="botao">
+            <a href="#" class="botao_link">Ver Coleção</a>
+        </button>
+    </section>
+
+    <section class="video-mbappe">
+        <div class="watch">
+            <video src="img/video-mbappe.mp4" controls></video>
+        </div>
+        <img src="img/colecao-mbappe.png" class="colecao-mbappe" alt="Coleção MBappe">
+        <button class="botao">
+            <a href="#" class="botao_link">Ver Coleção</a>
+        </button>
+    </section>
+
+    <h2 class="titulo-chamativo">Treino</h2>
+    
+    <section class="banner__metcon">
+        <div class="metcon">
+            <img src="img/metcon.png" class="imagem_mectcon" alt="Banner Metcon">
+        </div>
+        <button class="botao">
+            <a href="#" class="botao_link">Ver Tênis</a>
+        </button>
+    </section>
+
+    <h2 class="titulo-chamativo">Lançamento de Chuteiras</h2>
+
+    <section class="banner__nike-ready">
+        <div class="nike-ready">
+            <img src="img/nike-ready.png" class="imagem_nikeready" alt="Banner Nike Ready">
+        </div>
+            <div class="button-flex">
+                <button class="botao flex">
+                    <a href="#" class="botao_link">Ver Tênis</a>
+                </button>
+                <button class="botao flex">
+                    <a href="#" class="botao_link">Ver Golden Touch</a>
+                </button>
+            </div>
+    </section>
+
+    <h2 class="titulo-chamativo">Tops Nike</h2>
+
+    <section class="video-tops-nike">
+        <div class="watch">
+            <video src="img/tops-nike.mp4" autoplay muted></video>
+        </div>
+        <img src="img/tops-nike.png" class="tops-nike" alt="Tops da Nike">
+            <div class="button-flex">
+                <button class="botao flex">
+                    <a href="#" class="botao_link">Ver Tops</a>
+                </button>
+                <button class="botao flex">
+                    <a href="#" class="botao_link">Ver Guia de Tops</a>
+                </button>
+            </div>
+    </section>
+
+    <h2 class="titulo-chamativo">Nike Membership</h2>
+
+    <section class="banner__nike-membership">
+        <div class="membership">
+            <img src="img/nike-membership.png" class="imagem_membership" alt="Banner Nike Membership">
+        </div>
+    </section>
+
+    <h2 class="titulo-chamativo">Conheça Também</h2>
+
+    <section class="carrossel">
+        <div class="carrossel__container">
+            <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/card-1.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/card-2.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/card-3.png" alt=""></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+    </script>
+
+</body>
+</html>

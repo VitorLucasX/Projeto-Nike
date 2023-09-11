@@ -1,0 +1,9 @@
+.membership {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.membership img {
+    width: 95%;
+}
