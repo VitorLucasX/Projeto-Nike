@@ -17,6 +17,8 @@
     content: '﹀';
     float: right;
     transition: transform .3s ease;
+    color: black;
+    font-weight: bold;
 }
 
 .list-content {
@@ -24,7 +26,7 @@
 }
 
 .list-content li {
-    padding: 6px 33px;
+    padding: 6px 40px;
 }
 
 .list-content li a {

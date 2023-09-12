@@ -9,6 +9,7 @@
 @Import url("styles/banner-nike-membership.css");
 @import url("styles/carrossel.css");
 @import url("styles/category.css");
+@Import url("styles/rodape.css");
 
 body {
     font-family: Arial, Helvetica, sans-serif;

@@ -1,0 +1,120 @@
+.rodape {
+    background-color: #111111;
+    margin: 1em;
+    padding: 2em;
+}
+
+.rodape-lista {
+    border-bottom: 2px solid gray;
+    padding:  0;
+}
+
+.rodape-lista li {
+    padding: 10px 0;
+}
+
+.rodape-lista a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.items_lista {
+    margin-top: 2em;
+}
+
+.faq-titulo-5,
+.faq-titulo-6 {
+    cursor: pointer;
+    padding: 1em 0;
+    font-size: 16px;
+    color: white;
+    border-top: 1px solid rgb(248, 247, 247);
+    border-bottom: 1px solid rgb(248, 247, 247);
+    text-transform: uppercase;
+}
+
+.faq-titulo-5::after,
+.faq-titulo-6::after {
+    content: '+';
+    float: right;
+    transition: transform .3s ease;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-content > .item {
+    padding: 5px 0;
+}
+
+ .list-content > .item a {
+    color: white;
+    font-size: 15px;
+}
+
+.list-content > .item a:hover {
+    color: rgba(128, 128, 128, 0.719);
+    transition: .3s;
+}
+
+.redes-titulo {
+    color: white;
+    padding-top: 2em;
+    font-size: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.redes-sociais li {
+    padding: 0 7px;
+}
+
+.icones-midia {
+    width: 25px;
+    border-radius: 24px;
+    background-color: white;
+}
+
+.icones-pagamento {
+    display: flex;
+    padding-top: 1em;
+    align-items: center;
+}
+
+.icones-pagamento li {
+    padding: 0 4px;
+}
+
+.icones-pagamento img {
+    background-color: white;
+    color: white;
+    border: 2px solid white;
+    width: 40px;
+    height: 25px;
+}
+
+.creditos {
+    display: flex;
+    justify-content: center;
+}
+
+.creditos p {
+    padding: 3em 1em;
+}
+
+.creditos a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 14px;
+}
