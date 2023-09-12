@@ -1,0 +1,55 @@
+.category {
+    margin: 0 auto;
+    margin-top: 2.5em;
+}
+
+.list-items {
+    margin-top: 0.3em;
+}
+
+.faq-title {
+    cursor: pointer;
+    padding: 0.7em 2em;
+    font-size: 20px;
+}
+
+.faq-title::after {
+    content: '﹀';
+    float: right;
+    transition: transform .3s ease;
+}
+
+.list-content {
+    display: none;
+}
+
+.list-content li {
+    padding: 6px 33px;
+}
+
+.list-content li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 18px;
+}
+
+.list-content li a:hover {
+    color: rgba(0, 0, 0, 0.884);
+}
+
+hr {
+    width: 88%;
+    color: rgba(128, 128, 128, 0.37);
+}
+
+.trigger-input {
+    display: none;
+}
+
+.trigger-input:checked + .trigger-wrapper .faq-content {
+    display: block;
+}
+
+.trigger-input:checked + .trigger-wrapper .list-content {
+    display: block;
+}
