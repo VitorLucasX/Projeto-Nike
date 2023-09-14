@@ -47,6 +47,74 @@
     font-size: 15px;
 }
 
-@media screen and (min-width: 1024px) {
+.header-desktop {
+    display: none;
+}
 
+.lista-desktop {
+    display: none;
+}
+
+.container__desktop {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .header-desktop {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 1em;
+    }
+
+    .container-desktop img {
+        padding: 0 10px;
+    }
+
+    .help-desktop a {
+        padding: 0 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .help-desktop a:hover {
+        color: gray;
+    }
+
+    .lista-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lista-desktop li {
+        padding: 0 0.7em;
+    }
+
+    .lista-desktop a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    .lista-desktop a:hover {
+        border-bottom: 2px solid black;
+        padding: 20px 0;
+    }
+
+    .menu__link {
+        display: none;
+    }
+
+    .container__mobile {
+        display: none;
+    }
+
+    .container__desktop {
+        display: flex;
+    }
+
+    .logo-nike {
+        width: 60px;
+    }
 }
