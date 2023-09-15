@@ -4,6 +4,21 @@
     padding-top: 1em;
 }
 
-.membership img {
+.imagem_membership {
     width: 95%;
+}
+
+.imagem_membership-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem_membership {
+        display: none;
+    }
+
+    .imagem_membership-desktop{
+        display: flex;
+        max-width: 80vw;
+    }
 }

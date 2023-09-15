@@ -4,6 +4,27 @@
     padding-top: 1em;
 }
 
-.lancamento img {
+.imagem_lancamento {
     width: 95%;
+}
+
+.imagem_lancamento-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem_lancamento {
+        display: none;
+    }
+
+    .imagem_lancamento-desktop{
+        display: flex;
+        max-width: 80vw;
+    }
+
+    .botao-desktop {
+        display: block;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
 }

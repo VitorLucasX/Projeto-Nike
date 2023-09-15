@@ -4,6 +4,21 @@
     padding-top: 1em;
 }
 
-.metcon img {
+.imagem_metcon {
     width: 95%;
+}
+
+.imagem_metcon-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem_metcon {
+        display: none;
+    }
+
+    .imagem_metcon-desktop{
+        display: flex;
+        max-width: 80vw;
+    }
 }

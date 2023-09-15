@@ -11,3 +11,30 @@
 .colecao-mbappe {
     width: 95%;
 }
+
+.colecao-mbappe-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .watch {
+        padding-top: 2em;
+        width: 85%;
+        height: 85vh;
+        margin: 0 auto;
+    }
+    
+    .watch-mbappe video {
+        object-fit: cover;
+    }
+
+    .colecao-mbappe {
+        display: none;
+    }
+
+    .colecao-mbappe-desktop {
+        display: block;
+        margin: 0 auto;
+        max-width: 80vw;
+    }
+}

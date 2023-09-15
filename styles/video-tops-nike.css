@@ -1,3 +1,32 @@
 .tops-nike {
     width: 95%;
 }
+
+.tops-nike-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .tops-nike {
+        display: none;
+    }
+
+    .tops-nike-desktop {
+        display: block;
+        margin: 0 auto;
+        max-width: 80vw;
+    }
+
+    .watch {
+        padding-top: 2em;
+        width: 85%;
+        height: 85vh;
+        margin: 0 auto;
+    }
+
+    .watch-tops video {
+        object-fit: cover;
+    }
+
+
+}

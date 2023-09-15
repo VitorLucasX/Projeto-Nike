@@ -4,6 +4,33 @@
     padding-top: 1em;
 }
 
-.banner-membro img {
+.imagem_membros {
     width: 95%;
+}
+
+.imagem_membros-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem_membros {
+        display: none;
+    }
+
+    .imagem_membros-desktop{
+        display: flex;
+        max-width: 80vw;
+    }
+
+    .botao-desktop {
+        display: block;
+        margin: 0 auto;
+        margin-top: 3em;
+    }
+
+    .titulo-chamativo {
+        text-align: center;
+        font-size: 33px;
+        padding: .8em 0;
+    }
 }
