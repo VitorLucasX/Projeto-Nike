@@ -10,13 +10,13 @@
 }
 
 .rodape-lista li {
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 .rodape-lista a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .items_lista {
@@ -26,8 +26,8 @@
 .faq-titulo-5,
 .faq-titulo-6 {
     cursor: pointer;
-    padding: 1em 0;
-    font-size: 16px;
+    padding: 1.5em 0;
+    font-size: 14px;
     color: white;
     border-top: 1px solid rgb(248, 247, 247);
     border-bottom: 1px solid rgb(248, 247, 247);
@@ -61,7 +61,7 @@
 .redes-titulo {
     color: white;
     padding-top: 2em;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .redes-sociais {
