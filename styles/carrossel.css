@@ -1,5 +1,6 @@
 .swiper-slide img {
-    width: 100%
+    width: 100%;
+    cursor: pointer;
 }
 
 .swiper {
@@ -10,4 +11,26 @@
     display: flex;
     justify-content: center;
     padding-top: 1em;
+}
+
+.carrossel_desktop {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .carrossel_image-desktop {
+        padding: 0 .5em;
+        width: 27%;
+        cursor: pointer;
+    }
+
+    .carrossel_desktop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carrossel__container {
+        display: none;
+    }
 }

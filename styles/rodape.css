@@ -17,10 +17,23 @@
     text-decoration: none;
     color: white;
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-suporte li {
+    padding: 10px 0;
+}
+
+.list-suporte a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .items_lista {
     margin-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .faq-titulo-5,
@@ -32,6 +45,7 @@
     border-top: 1px solid rgb(248, 247, 247);
     border-bottom: 1px solid rgb(248, 247, 247);
     text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .faq-titulo-5::after,
@@ -51,6 +65,7 @@
  .list-content > .item a {
     color: white;
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .list-content > .item a:hover {
@@ -62,6 +77,7 @@
     color: white;
     padding-top: 2em;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .redes-sociais {
@@ -124,4 +140,60 @@
     text-align: center;
     background-color: rgb(131, 165, 81);
     color: white;
+}
+
+.rodape_desktop-lista {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .items_lista {
+        display: none;
+    }
+
+    .rodape_desktop-lista {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .items_list-desk li {
+        padding-top: .5em;
+    }
+
+    .items_list-desk a {
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+    .items_list-desk a:hover {
+        color: rgb(156, 156, 156);
+    }
+
+    .titulo_items-desk {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding: .5em 0;
+    }
+
+    .redes-titulo-x {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding: .1em 0;
+    }
+
+    .payment-desk {
+        margin-top: 2em;
+    }
+
+    .midia-payment {
+        display: none;
+    }
+
+    .initial-list {
+        display: none;
+    }
 }

@@ -55,3 +55,28 @@ hr {
 .trigger-input:checked + .trigger-wrapper .list-content {
     display: block;
 }
+
+@media screen and (min-width: 1024px) {
+    .list-items {
+        display: none;
+    }
+
+    .list_items-desktop {
+        display: flex;
+        justify-content: center;
+        padding: 1em 1em;
+    }
+
+    .list_content-desktop {
+        display: block;
+        padding: 1em 1em;
+    }
+    
+    hr {
+        display: none;
+    }
+
+    .titulo_items-desktop {
+        font-size: 22px;
+    }
+}
